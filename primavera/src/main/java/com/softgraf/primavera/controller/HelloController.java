@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletRequest;
 @Controller
 public class HelloController {
 	
-	/* Esta é uma Action, que recebe uma requisição http  */
+	/* Esta é uma Action, que recebe uma requisição http */
 	@GetMapping("/hello")
 	public String hello(HttpServletRequest request) {
 		request.setAttribute("nome", "Valdeci Menon");
